@@ -1,0 +1,869 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 930
+  viewPortHeight: 625
+  horizontalOffset: 112
+  verticalOffset: -26
+addInfo:
+  tasks:
+    - name: Confirm repositories
+      id: confirm-repositories
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Establish MVP resourcing
+      id: establish-mvp-resourcing
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: GenAI recap and upskilling
+      id: genai-recap-and-upskilling
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Establish success criteria
+      id: establish-success-criteria
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Get repository data in GCP
+      id: get-repository-data-in-gcp
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Finalize MVP scaffolding
+      id: finalize-mvp-scaffolding
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Complete MVP
+      id: complete-mvp
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Go/no-go decision
+      id: go/no-go-decision
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Additional MVP iterations
+      id: additional-mvp-iterations
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Implement changes
+      id: implement-changes
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+    - name: Analyze and measure impact
+      id: analyze-and-measure-impact
+      progress: 0
+      details: ""
+      delayed: false
+      atRisk: false
+      blocked: false
+      color: "#732fd3"
+      ownerOne: ""
+      ownerTwo: ""
+      dates:
+        - 2024-04-25T01:52:45.881Z
+        - 2024-04-25T01:52:45.881Z
+      datesEnabled: false
+      subtaskLevelProgress: false
+      inFlow: true
+      subtasks:
+        - name: Subtask 1
+          progress: 0
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+  projectFlow: |-
+    workstream "GenAI Code Comments"
+    task: "Confirm repositories" tag: "Jane's team"
+    workstream "MVP"
+    task: "Establish MVP resourcing" tag: "John's team"
+    workstream "MVP Prep"
+    task: "GenAI recap and upskilling"
+    workstream "MVP Prep"
+    task: "Establish success criteria"
+    task: "Get repository data in GCP"
+    task: "Finalize MVP scaffolding"
+    workstream "MVP"
+    merge "MVP Prep"
+    task: "Complete MVP"
+    workstream "GenAI Code Comments"
+    merge "MVP"
+    task: "Go/no-go decision"
+    workstream "MVP"
+    task: "Additional MVP iterations"
+    workstream "GenAI Code Comments"
+    merge "MVP"
+    task: "Implement changes"
+    task: "Analyze and measure impact"
+height: 625
+connectors:
+  - id: Straight ConnectorWrlyy
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 337
+      y: 233
+    targetPoint:
+      x: 337
+      y: 288
+    sourceID: Rusti7n86
+    targetID: DockerFRJrA
+    addInfo:
+      viewConnector: 0
+    zIndex: 2
+  - id: Straight ConnectorSDfeK
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 337
+      y: 388
+    targetPoint:
+      x: 337
+      y: 424
+    sourceID: DockerFRJrA
+    targetID: RedispapgV
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight ConnectorFIZ2f
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 487
+      y: 338
+    targetPoint:
+      x: 535
+      y: 338
+    sourceID: DockerFRJrA
+    targetID: Cloud RunT3v0U
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight ConnectordOb4t
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 487
+      y: 474
+    targetPoint:
+      x: 535
+      y: 474
+    sourceID: RedispapgV
+    targetID: MemorystorefoHNQ
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Straight ConnectorBLZvv
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 685
+      y: 159
+    targetPoint:
+      x: 685
+      y: 288
+    sourceID: Cloud Load BalancingLK99p
+    targetID: Cloud RunT3v0U
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Straight Connectorl3U9G
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 685
+      y: 388
+    targetPoint:
+      x: 685
+      y: 424
+    sourceID: Cloud RunT3v0U
+    targetID: MemorystorefoHNQ
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #2a3439;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Rust_Black_87_e2kfdi.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Rust_pzedb7.png);"></div><div
+        class="c-text"><div class="c-title">URL Shortener/Redirect
+        Service</div><div class="c-short-description">Safe and efficient
+        low-level system programming</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Rust</div></div></div></div></div>'
+    id: Rusti7n86
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Rust
+        shortDescription: Safe and efficient low-level system programming
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Rust
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Rust
+      editableName: URL Shortener/Redirect Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Automated Task
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageTaskDuration
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Automated Task
+          AverageTaskDuration: 1
+      name: Rust
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Rust_pzedb7.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Rust__044448_fzjb4n.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1663310164/sds_logos/Programming%20Languages/Rust_Black_87_e2kfdi.png
+      controlText: Rust
+      color: "#2a3439"
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: 183
+    zIndex: 0
+    outEdges:
+      - Straight ConnectorWrlyy
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3478B3;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png);"></div><div
+        class="c-text"><div class="c-title">App Containerization</div><div
+        class="c-short-description">Creating, deploying, and running
+        applications by using containerization</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Docker</div></div></div></div></div>'
+    id: DockerFRJrA
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Docker
+        shortDescription: Creating, deploying, and running applications by using containerization
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Docker
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Docker
+      editableName: App Containerization
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Deployment Target
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Deployment Target
+      name: Docker
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_gnh7eh.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker__044448_env9qq.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1677438108/sds_logos/Docker_Black_87_xpuvlp.png
+      color: "#3478B3"
+      controlText: Docker
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: 338
+    zIndex: 1
+    inEdges:
+      - Straight ConnectorWrlyy
+    outEdges:
+      - Straight ConnectorSDfeK
+      - Dashed Straight ConnectorFIZ2f
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #973029;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_Black_87_jvokqp.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_je8m0f.png);"></div><div
+        class="c-text"><div class="c-title">URI/URL Mappings</div><div
+        class="c-short-description">Caching, messaging, and fast in-memory data
+        storage and manipulation</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Redis</div></div></div></div></div>'
+    id: RedispapgV
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Redis
+        shortDescription: Caching, messaging, and fast in-memory data storage and manipulation
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Redis
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Redis
+      editableName: URI/URL Mappings
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Store
+          type: Storage
+          portsIn:
+            put: data
+            get: fetch
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Data Store
+      name: Redis
+      category: 9
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_je8m0f.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis__044448_eyhhls.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1659084940/sds_logos/Redis_Black_87_jvokqp.png
+      color: "#973029"
+      controlText: Redis
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 337
+    offsetY: 474
+    zIndex: 3
+    inEdges:
+      - Straight ConnectorSDfeK
+    outEdges:
+      - Dashed Straight ConnectordOb4t
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Run</div><div
+        class="c-short-description">Running stateless containers in a fully
+        managed serverless environment</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud RunT3v0U
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Run
+        shortDescription: Running stateless containers in a fully managed serverless environment
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Run
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Run
+      editableName: Cloud Run
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Run
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_icgqao.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run__044448_vfqzy2.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_run_Black_87_egowtg.png
+      color: "#3871e0"
+      controlText: Cloud Run
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 685
+    offsetY: 338
+    zIndex: 5
+    inEdges:
+      - Dashed Straight ConnectorFIZ2f
+      - Straight ConnectorBLZvv
+    outEdges:
+      - Straight Connectorl3U9G
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_Black_87_wn7sti.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_d3di3b.png);"></div><div
+        class="c-text"><div class="c-title">Memorystore (Redis)</div><div
+        class="c-short-description">Caching and managing data in Redis and
+        Memcached to improve application performance</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: MemorystorefoHNQ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Memorystore
+        shortDescription: Caching and managing data in Redis and Memcached to improve
+          application performance
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Memorystore
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Memorystore
+      editableName: Memorystore (Redis)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Memorystore
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_d3di3b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore__044448_mqkepw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/memorystore_Black_87_wn7sti.png
+      color: "#3871e0"
+      controlText: Memorystore
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 685
+    offsetY: 474
+    zIndex: 7
+    inEdges:
+      - Dashed Straight ConnectordOb4t
+      - Straight Connectorl3U9G
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Load Balancing</div><div
+        class="c-short-description">Distributing network traffic across multiple
+        servers to ensure high availability and reliability of
+        applications</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Cloud Load BalancingLK99p
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Cloud Load Balancing
+        shortDescription: Distributing network traffic across multiple servers to ensure
+          high availability and reliability of applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Cloud Load Balancing
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Cloud Load Balancing
+      editableName: Cloud Load Balancing
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Cloud Load Balancing
+      category: 4
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_hyojz5.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing__044448_ujhkjo.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_load_balancing_Black_87_qjhiok.png
+      color: "#3871e0"
+      controlText: Cloud Load Balancing
+      selectedDynamicsView: 0
+    width: 300
+    height: 100
+    offsetX: 685
+    offsetY: 109
+    zIndex: 9
+    outEdges:
+      - Straight ConnectorBLZvv
+selectedItems:
+  width: 0
+  height: 0
